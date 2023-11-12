@@ -48,9 +48,9 @@ export default function Home() {
 			{/* End of hero section */}
 
 			{/* about section */}
-			<section className="mt-10 md:mb-24 xl:mb-44 mb-10">
+			<section className="md:mt-24 xl:mt-24 mt-10  md:mb-24 xl:mb-44 mb-10">
 				<div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
-					<div className="xl:pl-32 md:px-10 px-3">
+					<div className="xl:pl-32 md:px-10 px-3 hidden md:block xl:block">
 						<Image
 							src="/images/4.jpg"
 							alt=""
@@ -61,17 +61,47 @@ export default function Home() {
 						/>
 					</div>
 
-					<div className="md:pr-20 md:py-5 xl:pr-72 xl:py-20 p-4 ">
-						<h1 className="font-bold md:text-3xl xl:text-5xl text-2xl">
+					<div className="md:py-1 xl:pr-32 xl:py-8 ">
+						<h1 className="font-bold md:text-4xl xl:text-4xl text-2xl text-black">
 							The FIRST-EVER Matchmaking Service For <span className="text-unistudblue"> Muslim University Students  And Graduates</span>
 						</h1>
-						<p className="mt-6 text-base xl:text-xl md:pr-24 font-light">We understand the challenges of finding that special someone to share life&apos;s journey with, especially when you&apos;re looking for a deep compatibility that aligns with your values as a practicing Muslim.</p>
-						<p className="mt-5 text-base xl:text-xl md:pr-24 font-light">We also understand the importance of adhering to the principles of halal dating, and Unistudents Match has been meticulously designed with these values in mind to ensure that your search for a compatible partner aligns seamlessly with your faith and beliefs.</p>
-						<a
-							className="inline-block rounded border border-unistudblue bg-unistudblue px-12 py-4 xl:mt-10 md:mt-7 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
-							href="#">
-							Download
-						</a>
+
+						<div className="xl:pl-32 md:px-10 px-3 block md:hidden xl:hidden">
+							<Image
+								src="/images/4.jpg"
+								alt=""
+								width="0"
+								height="0"
+								sizes="100vw"
+								className="shad w-full rounded-lg"
+							/>
+						</div>
+
+						<p className="mt-6 text-base xl:text-xl md:pr-24 font-light text-gray-500">We understand the challenges of finding that special someone to share life&apos;s journey with, especially when you&apos;re looking for a deep compatibility that aligns with your values as a practicing Muslim.</p>
+						<p className="mt-5 text-base xl:text-xl md:pr-24 font-light text-gray-500">We also understand the importance of adhering to the principles of halal dating, and Unistudents Match has been meticulously designed with these values in mind to ensure that your search for a compatible partner aligns seamlessly with your faith and beliefs.</p>
+						<div className="flex items-center">
+							<div className="md:flex xl:flex block mt-8">
+								<Link
+									href="https://play.google.com/store/apps/details?id=com.unistudentsmatch.app.twa"
+									target="_blank">
+									<Image
+										src="/images/google.svg"
+										alt=""
+										width={160}
+										height={160}
+										className="m-auto md:me-5 xl:me-5 mb-3 md:mb-1 xl:mb-1"
+										priority
+									/>
+								</Link>
+								<Image
+									src="/images/apple.svg"
+									alt=""
+									width={150}
+									height={150}
+									className="m-auto"
+								/>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
