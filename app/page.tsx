@@ -18,7 +18,7 @@ export default function Home() {
 					<h1 className="md:text-7xl xl:text-8xl font-bold text-4xl">
 						Find your <span className="text-unistudwhite">perfect</span> university <span className="text-unistudwhite">partner</span>
 					</h1>
-					<h3 className="font-light md:text-2xl xl:text-3x md:pt-5 xl:pt-5 pt-1 w-3/5 md:w-10/12 xl:w-6/12 m-auto">Unistudents Match is designed to help you connect with the right person in a halal way.</h3>
+					<h3 className="font-light md:text-2xl xl:text-3x md:pt-5 xl:pt-5 pt-1 w-4/5 md:w-10/12 xl:w-6/12 m-auto">Unistudents Match is designed to help you connect with the right person in a halal way.</h3>
 
 					<div className="flex justify-center items-center">
 						<div className="md:flex xl:flex block mt-5">
