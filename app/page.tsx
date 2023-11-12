@@ -9,7 +9,7 @@ export default function Home() {
 				<div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
 					<video
 						className="min-w-full min-h-full absolute object-cover"
-						src="/videos/1.mp4"
+						src="https://res.cloudinary.com/dh6edo2ek/video/upload/f_auto:video,q_auto/kmurwp0ve4gsjhf96xq7"
 						autoPlay
 						muted
 						loop></video>
