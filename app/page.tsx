@@ -1,8 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
 	return (
 		<>
+			{/* hero section */}
 			<section className="relative h-screen flex flex-col items-center justify-center text-center text-white py-0 px-3 mb-10">
 				<div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
 					<video
@@ -20,18 +22,22 @@ export default function Home() {
 
 					<div className="flex justify-center items-center">
 						<div className="md:flex xl:flex block mt-5">
-							<Image
-								src="/images/google.svg"
-								alt=""
-								width={160}
-								height={160}
-								className="m-auto md:me-5 xl:me-5 mb-3"
-								priority
-							/>
+							<Link
+								href="https://play.google.com/store/apps/details?id=com.unistudentsmatch.app.twa"
+								target="_blank">
+								<Image
+									src="/images/google.svg"
+									alt=""
+									width={160}
+									height={160}
+									className="m-auto md:me-5 xl:me-5 mb-3 md:mb-1 xl:mb-1"
+									priority
+								/>
+							</Link>
 							<Image
 								src="/images/apple.svg"
 								alt=""
-								width={159}
+								width={150}
 								height={150}
 								className="m-auto"
 							/>
@@ -39,6 +45,7 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
+			{/* End of hero section */}
 		</>
 	);
 }
