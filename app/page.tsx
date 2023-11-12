@@ -46,6 +46,10 @@ export default function Home() {
 				</div>
 			</section>
 			{/* End of hero section */}
+
+			{/* about section */}
+			<section></section>
+			{/* End of about section */}
 		</>
 	);
 }
