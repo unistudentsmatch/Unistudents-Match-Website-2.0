@@ -98,7 +98,7 @@ export default function Home() {
 									alt=""
 									width={150}
 									height={150}
-									className="m-auto"
+									className="m-auto hidden md:block xl:block"
 								/>
 							</div>
 						</div>
