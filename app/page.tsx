@@ -48,7 +48,7 @@ export default function Home() {
 			{/* End of hero section */}
 
 			{/* about section */}
-			<section className="md:mt-24 xl:mt-24 mt-10  md:mb-24 xl:mb-44 mb-10">
+			<section className="md:mt-24 xl:mt-24 mt-10  md:mb-24 xl:mb-44 mb-10 p-5">
 				<div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
 					<div className="xl:pl-32 md:px-10 px-3 hidden md:block xl:block">
 						<Image
@@ -61,12 +61,12 @@ export default function Home() {
 						/>
 					</div>
 
-					<div className="md:py-1 xl:pr-32 xl:py-8 ">
+					<div className="xl:pr-32 xl:py-5 ">
 						<h1 className="font-bold md:text-4xl xl:text-4xl text-2xl text-black">
 							The FIRST-EVER Matchmaking Service For <span className="text-unistudblue"> Muslim University Students  And Graduates</span>
 						</h1>
 
-						<div className="xl:pl-32 md:px-10 px-3 block md:hidden xl:hidden">
+						<div className="mt-7 mb-5 block md:hidden xl:hidden">
 							<Image
 								src="/images/4.jpg"
 								alt=""
