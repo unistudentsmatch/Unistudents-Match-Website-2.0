@@ -48,11 +48,11 @@ export default function Home() {
 			{/* End of hero section */}
 
 			{/* about section */}
-			<section className="md:mt-24 xl:mt-24 mt-10  md:mb-24 xl:mb-44 mb-10 p-5">
+			<section className="md:mt-24 xl:mt-24 mt-10  md:mb-24 xl:mb-44 mb-10 p-6">
 				<div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
 					<div className="xl:pl-32 md:px-10 px-3 hidden md:block xl:block">
 						<Image
-							src="/images/4.jpg"
+							src="/images/ch.jpg"
 							alt=""
 							width="0"
 							height="0"
@@ -62,13 +62,13 @@ export default function Home() {
 					</div>
 
 					<div className="xl:pr-32 xl:py-5 ">
-						<h1 className="font-bold md:text-4xl xl:text-4xl text-2xl text-black">
+						<h1 className="font-bold md:text-3xl xl:text-3xl text-2xl text-black">
 							The FIRST-EVER Matchmaking Service For <span className="text-unistudblue"> Muslim University Students  And Graduates</span>
 						</h1>
 
 						<div className="mt-7 mb-5 block md:hidden xl:hidden">
 							<Image
-								src="/images/4.jpg"
+								src="/images/ch.jpg"
 								alt=""
 								width="0"
 								height="0"
@@ -78,7 +78,7 @@ export default function Home() {
 						</div>
 
 						<p className="mt-6 text-base xl:text-xl md:pr-24 font-light text-gray-500">We understand the challenges of finding that special someone to share life&apos;s journey with, especially when you&apos;re looking for a deep compatibility that aligns with your values as a practicing Muslim.</p>
-						<p className="mt-5 text-base xl:text-xl md:pr-24 font-light text-gray-500">We also understand the importance of adhering to the principles of halal dating, and Unistudents Match has been meticulously designed with these values in mind to ensure that your search for a compatible partner aligns seamlessly with your faith and beliefs.</p>
+						<p className="mt-5 text-base xl:text-xl md:pr-24 font-light text-gray-500">We also understand the importance of adhering to the principles of halal matchmaking, and Unistudents Match has been meticulously designed with these values in mind to ensure that your search for a compatible partner aligns seamlessly with your faith and beliefs.</p>
 						<div className="flex items-center">
 							<div className="md:flex xl:flex block mt-8">
 								<Link
