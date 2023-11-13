@@ -141,7 +141,7 @@ export default function Home() {
 			{/* End of featues section */}
 
 			{/* FAQs section */}
-			<section className="md:mt-10 xl:mt-24 mt-5  md:mb-24 xl:mb-44 mb-10 xl:p-20 p-8">
+			<section className="md:mt-10 xl:mt-24 mt-5  md:mb-24 xl:mb-44 mb-10 xl:p-20 p-6">
 				<div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
 					<div className="xl:pl-32 xl:py-5 ">
 						<div className="mt-1 mb-10 block md:hidden xl:hidden">
