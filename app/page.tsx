@@ -151,6 +151,37 @@ export default function Home() {
 				</div>
 			</section>
 			{/* End of featues section */}
+
+			{/* Call to action section */}
+			<section className="xl:px-80 md:px-14 px-2 py-2 mt-2 justify-center flex">
+				<div className="container grid grid-cols-1 gap-12 mt-5 mb-24 h-96">
+					<div className="overflow-hidden bg-unistudblue shad1 text-unistuddark background-image">
+						<div className="md:p-10 xl:p-9">
+							<h2 className="font-bold text-unistudwhite mb-3 m-14 text-2xl xl:text-5xl md:text-5xl md:w-3/5 xl:w-4/5 w-full">Ready to get started? </h2>
+							<p className="mt-5 text-lg xl:w-3/5 md:w-3/5 md:ml-14 xl:ml-14 text-unistudwhite">Create an account, verify your account and start connecting with right matches based on who you&lsquo;re compatibile with.</p>
+						</div>
+
+						<div className="flex md:ml-24 xl:ml-24">
+							<Image
+								src="/images/google.svg"
+								alt=""
+								width={160}
+								height={160}
+								className="me-5"
+								priority
+							/>
+							<Image
+								src="/images/apple.svg"
+								alt=""
+								width={150}
+								height={150}
+								className=""
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+			{/* End Call to action section */}
 		</>
 	);
 }

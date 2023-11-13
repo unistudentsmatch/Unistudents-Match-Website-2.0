@@ -1,14 +1,20 @@
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
 	return (
 		<footer className="footer footer-center p-10 bg-black text-white rounded">
-			<nav className="grid grid-flow-col gap-4 mt-5">
-				<a className="link link-hover">About us</a>
-				<a className="link link-hover">Privacy Policy</a>
-				<a className="link link-hover">Terms & Condition</a>
-			</nav>
+			<aside className="mt-10">
+				<Image
+					src="/images/logo.png"
+					alt="Unstudents Match"
+					width="150"
+					height="150"
+					className="inline-block fill-current"
+				/>
+			</aside>
+
 			<nav>
 				<div className="grid grid-flow-col gap-4">
 					<Link
@@ -49,8 +55,27 @@ const Footer = () => {
 					</Link>
 				</div>
 			</nav>
+
+			<nav className="grid grid-flow-col gap-4 mt-5">
+				<Link
+					href="mailto:hello@unistudentsmatch.com"
+					className="link link-hover xl:text-xl">
+					Contact
+				</Link>
+				<Link
+					href="/privacy"
+					className="link link-hover xl:text-xl">
+					Privacy Policy
+				</Link>
+				<Link
+					href="terms-and-condition"
+					className="link link-hover xl:text-xl">
+					Terms & Condition
+				</Link>
+			</nav>
+
 			<aside>
-				<p>
+				<p className="mb-10 text-base-300">
 					&copy; Unistudents Match - Developed by{" "}
 					<Link
 						href="https://hynitr.com"
