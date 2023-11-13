@@ -106,6 +106,51 @@ export default function Home() {
 				</div>
 			</section>
 			{/* End of about section */}
+
+			{/* features section */}
+			<section className="xl:px-48 md:px-14 py-2 mt-14 justify-center flex">
+				{/*<h1 className='text-3xl md:text-5xl w-64 md:w-6/12 md:leading-[3.7rem]'> What <span className='text-thegrtnxyellow'>can I do?</span> </h1>*/}
+
+				<div className="container grid sm:grid-cols-2 lg:grid-cols-3 gap-12 mt-5 mb-24">
+					<div className="overflow-hidden text-unistuddark rounded-lg">
+						<div className="sm:p-9 md:p-10 xl:p-9">
+							<h2 className="font-bold mb-3 mt-3 text-3xl">Purity </h2>
+							<p className="mb-5 mt-5 text-md font-light">Unlike many other matrimonial websites we pride ourselves on the unique features we have introduced to keep this website in accordance with Islamic beliefs.</p>
+						</div>
+
+						<div className="p-8 sm:p-9 md:p-10 xl:p-9">
+							<h2 className="font-bold mb-3 mt-3 text-3xl">Privacy </h2>
+							<p className="mb-5 mt-5 text-md font-light">We understand that privacy is important for you. Your personal data will remain private with us. You can even choose which members can see your photos.</p>
+						</div>
+					</div>
+
+					<div className="overflow-hidden text-unistuddark rounded-lg">
+						<div className="">
+							<video
+								className="rounded-xl"
+								src="https://res.cloudinary.com/dh6edo2ek/video/upload/v1699839170/elojwjchxup1riocupeq.mp4"
+								width="980"
+								height="980"
+								autoPlay
+								muted
+								loop></video>
+						</div>
+					</div>
+
+					<div className="overflow-hidden text-unistuddark rounded-lg">
+						<div className="p-8 sm:p-9 md:p-10 xl:p-9">
+							<h2 className="font-bold mb-3 mt-3 text-3xl">Security </h2>
+							<p className="mb-5 mt-5 text-md font-light">We care about your security and we use industry-leading technologies such as Business Validated Secure Sockets Layer (SSL) to keep your data safe.</p>
+						</div>
+
+						<div className="p-8 sm:p-9 md:p-10 xl:p-9">
+							<h2 className="font-bold mb-3 mt-3 text-3xl">NO Foul Language </h2>
+							<p className="mb-5 mt-5 text-md font-light">We created Unistudents Match to help you connect with the right person in a halal way.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			{/* End of featues section */}
 		</>
 	);
 }
