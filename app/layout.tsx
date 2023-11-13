@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Cloudinary } from "@cloudinary/url-gen";
 import "./globals.css";
+import Footer from "./Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +18,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 		<html
 			lang="en"
 			data-theme="winter">
-			<body className={`${inter.className} bg-white`}>{children}</body>
+			<body className={`${inter.className} bg-white`}>
+				{children}
+				<Footer />
+			</body>
 		</html>
 	);
 }
