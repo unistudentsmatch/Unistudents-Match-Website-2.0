@@ -166,57 +166,57 @@ export default function Home() {
 						<div
 							tabIndex={0}
 							className="collapse collapse-arrow border border-base-300 bg-base-200 mb-5">
-							<div className="collapse-title text-xl font-medium">Focus me to see content</div>
+							<div className="collapse-title text-xl font-medium">How Islamic is the unistudents match process?</div>
 							<div className="collapse-content">
-								<p>tabIndex={0} attribute is necessary to make the div focusable</p>
+								<p>We follow the Quran and Sunnah. We take pride in making sure our matchmaking service is an Islamic as possible. This includes not being able to send photos to each other and algorithms are in place to monitor messages that are inappropriate.</p>
 							</div>
 						</div>{" "}
 						<div
 							tabIndex={0}
 							className="collapse collapse-arrow border border-base-300 bg-base-200 mb-5">
-							<div className="collapse-title text-xl font-medium">Focus me to see content</div>
+							<div className="collapse-title text-xl font-medium">How much does unistudents match cost?</div>
 							<div className="collapse-content">
-								<p>tabIndex={0} attribute is necessary to make the div focusable</p>
+								<p>We charge a fee of £14.99 per month. There is also an annual subscription for £120.</p>
 							</div>
 						</div>{" "}
 						<div
 							tabIndex={0}
 							className="collapse collapse-arrow border border-base-300 bg-base-200 mb-5">
-							<div className="collapse-title text-xl font-medium">Focus me to see content</div>
+							<div className="collapse-title text-xl font-medium">For a sister signing up to unistudents match, what is the involvement of the Wali?</div>
 							<div className="collapse-content">
-								<p>tabIndex={0} attribute is necessary to make the div focusable</p>
+								<p>When signing up to unistudents match, all sisters will need to include their contact details of their guardian.</p>
 							</div>
 						</div>{" "}
 						<div
 							tabIndex={0}
 							className="collapse collapse-arrow border border-base-300 bg-base-200 mb-5">
-							<div className="collapse-title text-xl font-medium">Focus me to see content</div>
+							<div className="collapse-title text-xl font-medium">How do you match people?</div>
 							<div className="collapse-content">
-								<p>tabIndex={0} attribute is necessary to make the div focusable</p>
+								<p>Once you have signed up to the subscription, you will be given access to the database where you can connect with other brothers and sisters. You can view their profiles and directly message them.</p>
 							</div>
 						</div>{" "}
 						<div
 							tabIndex={0}
 							className="collapse collapse-arrow border border-base-300 bg-base-200 mb-5">
-							<div className="collapse-title text-xl font-medium">Focus me to see content</div>
+							<div className="collapse-title text-xl font-medium">How many profiles am I allowed to contact on unistudents match?</div>
 							<div className="collapse-content">
-								<p>tabIndex={0} attribute is necessary to make the div focusable</p>
+								<p>tUnlimited! That’s right. You can contact as many as you like. Unlike some other matchmaking services where they limit you to 3 requests a month. You will be given unlimited for the same price.</p>
 							</div>
 						</div>{" "}
 						<div
 							tabIndex={0}
 							className="collapse collapse-arrow border border-base-300 bg-base-200 mb-5">
-							<div className="collapse-title text-xl font-medium">Focus me to see content</div>
+							<div className="collapse-title text-xl font-medium">Who can sign up?</div>
 							<div className="collapse-content">
-								<p>tabIndex={0} attribute is necessary to make the div focusable</p>
+								<p>All university students who are currently at university and all students who have already graduated.</p>
 							</div>
 						</div>{" "}
 						<div
 							tabIndex={0}
 							className="collapse collapse-arrow border border-base-300 bg-base-200 mb-5">
-							<div className="collapse-title text-xl font-medium">Focus me to see content</div>
+							<div className="collapse-title text-xl font-medium">I am from outside of UK, can I still sign up?</div>
 							<div className="collapse-content">
-								<p>tabIndex={0} attribute is necessary to make the div focusable</p>
+								<p>Yes! As long as you're a student or a graduate, you can sign up from anywhere in the world.</p>
 							</div>
 						</div>{" "}
 					</div>
