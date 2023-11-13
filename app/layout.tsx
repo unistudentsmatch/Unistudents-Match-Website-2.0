@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { Cloudinary } from "@cloudinary/url-gen";
 import "./globals.css";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			lang="en"
 			data-theme="winter">
 			<body className={`${inter.className} bg-slate-50`}>
+				<Navbar />
 				{children}
 				<Footer />
 			</body>
