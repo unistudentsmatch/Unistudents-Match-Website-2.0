@@ -216,7 +216,7 @@ export default function Home() {
 							className="collapse collapse-arrow border border-base-300 bg-base-200 mb-5">
 							<div className="collapse-title text-xl font-medium">I am from outside of UK, can I still sign up?</div>
 							<div className="collapse-content">
-								<p>Yes! As long as you're a student or a graduate, you can sign up from anywhere in the world.</p>
+								<p>Yes! As long as you&apos;re a student or a graduate, you can sign up from anywhere in the world.</p>
 							</div>
 						</div>{" "}
 					</div>
