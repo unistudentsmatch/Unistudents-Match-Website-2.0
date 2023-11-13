@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 		<html
 			lang="en"
 			data-theme="winter">
-			<body className={`${inter.className} bg-white`}>
+			<body className={`${inter.className} bg-slate-50`}>
 				{children}
 				<Footer />
 			</body>
