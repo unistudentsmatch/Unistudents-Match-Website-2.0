@@ -8,7 +8,7 @@ const Footer = () => {
 		<footer className="footer footer-center p-10 bg-black text-white rounded">
 			<aside className="mt-10">
 				<Image
-					src="/images/logo.png"
+					src="/images/lggg.png"
 					alt="Unstudents Match"
 					width="150"
 					height="150"
