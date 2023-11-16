@@ -21,8 +21,8 @@ const Navbar = () => {
 	];
 
 	return (
-		<div className="p-10 fixed w-full z-50 bg-white">
-			<header className="absolute inset-x-0 top-0 z-50 ">
+		<div className="p-10 sticky top-0 bg-white z-50">
+			<header className="absolute inset-x-0 top-0">
 				<nav
 					className="flex items-center justify-between p-6 lg:px-8"
 					aria-label="Global">
