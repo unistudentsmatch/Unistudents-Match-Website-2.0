@@ -158,9 +158,9 @@ export default function Home() {
 						<div
 							tabIndex={0}
 							className="collapse collapse-arrow border border-base-300 bg-base-200 mb-5">
-							<div className="collapse-title text-xl font-medium">I have a question or enquiry, do I contact unistudents match?</div>
+							<div className="collapse-title text-xl font-medium">I have a question or enquiry, how do I contact unistudents match?</div>
 							<div className="collapse-content">
-								<p className="text-base-400">We can be emailed at unistudentsmatch@outlook.com - but we kindly ask that you read through our FAQs first, as the vast majority of questions you will have can be answered here.</p>
+								<p className="text-base-400">We can be emailed at unistudentsmatch@gmail.com - but we kindly ask that you read through our FAQs first, as the vast majority of questions you will have can be answered here.</p>
 							</div>
 						</div>{" "}
 						<div
@@ -168,7 +168,7 @@ export default function Home() {
 							className="collapse collapse-arrow border border-base-300 bg-base-200 mb-5">
 							<div className="collapse-title text-xl font-medium">How Islamic is the unistudents match process?</div>
 							<div className="collapse-content">
-								<p>We follow the Quran and Sunnah. We take pride in making sure our matchmaking service is an Islamic as possible. This includes not being able to send photos to each other and algorithms are in place to monitor messages that are inappropriate.</p>
+								<p>We follow the Quran and Sunnah. We take pride in making sure our matchmaking service is Islamic as possible. This includes not being able to send photos to each other and algorithms are in place to monitor messages that are inappropriate.</p>
 							</div>
 						</div>{" "}
 						<div
@@ -176,7 +176,7 @@ export default function Home() {
 							className="collapse collapse-arrow border border-base-300 bg-base-200 mb-5">
 							<div className="collapse-title text-xl font-medium">How much does unistudents match cost?</div>
 							<div className="collapse-content">
-								<p>We charge a fee of £14.99 per month. There is also an annual subscription for £120.</p>
+								<p>Free for 30 days ! After that we charge a fee of £14.99 per month …</p>
 							</div>
 						</div>{" "}
 						<div
@@ -200,7 +200,7 @@ export default function Home() {
 							className="collapse collapse-arrow border border-base-300 bg-base-200 mb-5">
 							<div className="collapse-title text-xl font-medium">How many profiles am I allowed to contact on unistudents match?</div>
 							<div className="collapse-content">
-								<p>tUnlimited! That’s right. You can contact as many as you like. Unlike some other matchmaking services where they limit you to 3 requests a month. You will be given unlimited for the same price.</p>
+								<p>Unlimited! That’s right. You can contact as many as you like. Unlike some other matchmaking services where they limit you to 3 requests a month. You will be given unlimited for the same price.</p>
 							</div>
 						</div>{" "}
 						<div
