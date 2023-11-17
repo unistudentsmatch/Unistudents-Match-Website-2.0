@@ -57,7 +57,7 @@ const Navbar = () => {
 							<Link
 								key={link.href}
 								href={link.href}
-								className={` ${link.href === currentPath ? "text-blue-700" : "text-zinc-800"}text-sm font-semibold leading-6 hover:text-blue-600 transition-colors`}>
+								className={` ${link.href === currentPath ? "text-blue-700" : "text-zinc-800"} text-sm font-semibold leading-6 hover:text-blue-600 transition-colors`}>
 								{link.label}
 							</Link>
 						))}
@@ -101,7 +101,7 @@ const Navbar = () => {
 								/>
 							</button>
 						</div>
-						<div className="mt-6 flow-root">
+						<div className="mt-36 flex flex-col items-center justify-center text-center">
 							<div className="-my-6 divide-y divide-gray-500/10">
 								<div className="space-y-4 py-10 px-2">
 									{links.map((link) => (
@@ -121,6 +121,9 @@ const Navbar = () => {
 										className="btn bg-unistudblue rounded-full px-10 text-sm font-semibold leading-6 text-white">
 										Download App
 									</a>
+								</div>
+								<div>
+									<Link href="/privacy">Privacy Policy</Link>
 								</div>
 							</div>
 						</div>
