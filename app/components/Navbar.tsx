@@ -57,7 +57,7 @@ const Navbar = () => {
 							<Link
 								key={link.href}
 								href={link.href}
-								className={` ${link.href === currentPath ? "text-blue-700" : "text-zinc-800"} text-sm font-semibold leading-6 hover:text-blue-600 transition-colors`}>
+								className={` ${link.href === currentPath ? "text-blue-700" : "text-zinc-800"} text-lg font-semibold leading-6 hover:text-blue-600 transition-colors`}>
 								{link.label}
 							</Link>
 						))}

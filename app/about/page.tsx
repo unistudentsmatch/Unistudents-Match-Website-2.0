@@ -4,10 +4,16 @@ import Link from "next/link";
 import Calltoaction from "../components/Calltoaction";
 
 const About = () => {
+	const abc = [
+		{ number: "1", text: "Download the Unistudents Match App" },
+		{ number: "2", text: "Create an account and setup your profile" },
+		{ number: "3", text: "FAQs" },
+	];
+
 	return (
 		<>
 			<section className=" h-screen">
-				<section className="md:mt-24 xl:mt-24 mt-1 p-8">
+				<section className="md:mt-20 xl:mt-20 mt-1 p-8">
 					<div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
 						<div className="xl:pl-32 md:px-10 px-3 hidden md:block xl:block">
 							<Image
@@ -21,7 +27,7 @@ const About = () => {
 						</div>
 
 						<div className="xl:pr-32 xl:py-5 ">
-							<h1 className="font-bold md:text-3xl xl:text-3xl text-2xl text-black">
+							<h1 className="font-bold md:text-3xl xl:text-4xl text-3xl text-black">
 								Developed with <span className="text-unistudblue"> undergraduates and graduates in mind</span>
 							</h1>
 
@@ -54,28 +60,33 @@ const About = () => {
 				</section>
 			</section>
 
-			<section className="mt-1 md:mb-24 xl:mb-44 mb-10 px-32">
+			<section className="mt-20 md:mb-24 xl:mb-44 mb-10 md:px-32 px-7">
 				<div className="flex justify-center items-center m-auto">
-					<h1 className="text-5xl font-bold mb-24">Geting Started is as easy as ABC</h1>
+					<h1 className="text-5xl font-bold mb-14 text-black">
+						Geting Started is as <span className="text-unistudblue">easy as ABC</span>
+					</h1>
 				</div>
-				<div className="flex gap-16">
-					<div className="card w-96 bg-base-100 shadow-xl image-full">
-						<figure>
-							<Image
-								src="/images/pr.jpg"
-								alt="Shoes"
-								width={100}
-								height={100}
-							/>
-						</figure>
-						<div className="card-body">
-							<h2 className="card-title">Shoes!</h2>
-							<p>If a dog chews shoes whose shoes does he choose?</p>
-							<div className="card-actions justify-end">
-								<button className="btn btn-primary">Buy Now</button>
+
+				<div className="md:flex gap-16 py-5">
+					{abc.map((steps) => (
+						<div
+							className="card w-96 bg-base-100 mb-5 shadow-xl image-full"
+							key={steps.number}>
+							<figure>
+								<Image
+									src="/images/pr.jpg"
+									alt="Shoes"
+									width={100}
+									height={100}
+									className="w-full"
+								/>
+							</figure>
+							<div className="card-body">
+								<h2 className="card-title text-white">{steps.number}</h2>
+								<p className="p-10">{steps.text}</p>
 							</div>
 						</div>
-					</div>
+					))}
 				</div>
 			</section>
 
