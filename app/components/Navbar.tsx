@@ -123,7 +123,11 @@ const Navbar = () => {
 									</a>
 								</div>
 								<div>
-									<Link href="/privacy">Privacy Policy</Link>
+									<Link
+										href="/privacy"
+										onClick={() => setMobileMenuOpen(false)}>
+										Privacy Policy
+									</Link>
 								</div>
 							</div>
 						</div>
