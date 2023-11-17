@@ -27,9 +27,9 @@ const Navbar = () => {
 					className="flex items-center justify-between p-6 lg:px-8"
 					aria-label="Global">
 					<div className="flex lg:flex-1">
-						<a
-							href="#"
-							className="-m-1.5 p-1.5 px-10">
+						<Link
+							href="/"
+							className="-m-1.5 p-1.5 xl:px-10">
 							<Image
 								className="h-10 w-auto"
 								src="/images/lgg.png"
@@ -37,7 +37,7 @@ const Navbar = () => {
 								width={100}
 								height={100}
 							/>
-						</a>
+						</Link>
 					</div>
 					<div className="flex lg:hidden">
 						<button
@@ -54,19 +54,19 @@ const Navbar = () => {
 
 					<div className="hidden lg:flex lg:gap-x-16">
 						{links.map((link) => (
-							<a
+							<Link
 								key={link.href}
 								href={link.href}
 								className={` ${link.href === currentPath ? "text-blue-700" : "text-zinc-800"}text-sm font-semibold leading-6 hover:text-blue-600 transition-colors`}>
 								{link.label}
-							</a>
+							</Link>
 						))}
 					</div>
-					<div className="hidden lg:flex lg:flex-1 lg:justify-end">
+					<div className="hidden lg:flex lg:flex-1 lg:justify-end xl:mr-10">
 						<a
-							href="#download-app"
-							className="text-sm font-semibold leading-6 text-gray-900">
-							Download App <span aria-hidden="true">&rarr;</span>
+							href="#downloadApp"
+							className="btn bg-unistudblue rounded-full px-10 text-sm font-semibold leading-6 text-white">
+							Download App
 						</a>
 					</div>
 				</nav>
@@ -128,7 +128,7 @@ const Navbar = () => {
 
 				<div
 					className="modal backdrop-blur-3xl"
-					id="download-app">
+					id="downloadApp">
 					<div className="modal-box">
 						<h3 className="font-bold text-lg">Download Unistudents Match</h3>
 						<p className="py-4">Click on the icons below to select your device</p>
