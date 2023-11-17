@@ -105,7 +105,7 @@ export default function Home() {
 					<div className="overflow-hidden text-unistuddark rounded-lg">
 						<div className="p-8 sm:p-9 md:p-10 xl:p-9">
 							<h2 className="font-bold mb-3 mt-3 xl:text-3xl text-2xl">Purity </h2>
-							<p className="mb-5 mt-5 text-md font-light">Unlike many other matrimonial websites we pride ourselves on the unique features we have introduced to keep this website in accordance with Islamic beliefs.</p>
+							<p className="mb-5 mt-5 text-md font-light">Unlike many other matrimonial websites, we pride ourselves on the unique features we have introduced to keep this website in accordance with Islamic beliefs.</p>
 						</div>
 
 						<div className="p-8 sm:p-9 md:p-10 xl:p-9">
