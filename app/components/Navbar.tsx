@@ -83,11 +83,11 @@ const Navbar = () => {
 								className="-m-1.5 p-1.5">
 								<span className="sr-only">Unistudents Match</span>
 								<Image
-									className="h-8 w-auto"
+									className="h-10 w-auto"
 									src="/images/lgg.png"
 									alt=""
-									width={400}
-									height={400}
+									width={100}
+									height={100}
 								/>
 							</Link>
 							<button
@@ -116,9 +116,10 @@ const Navbar = () => {
 								</div>
 								<div className="py-6">
 									<a
-										href="#"
-										className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-										Log in
+										href="#downloadApp"
+										onClick={() => setMobileMenuOpen(false)}
+										className="btn bg-unistudblue rounded-full px-10 text-sm font-semibold leading-6 text-white">
+										Download App
 									</a>
 								</div>
 							</div>
