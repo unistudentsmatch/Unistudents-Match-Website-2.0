@@ -7,12 +7,12 @@ const About = () => {
 	const abc = [
 		{ number: "1", text: "Download the Unistudents Match App" },
 		{ number: "2", text: "Create an account and setup your profile" },
-		{ number: "3", text: "FAQs" },
+		{ number: "3", text: "Start connecting with suggested match" },
 	];
 
 	return (
 		<>
-			<section className=" h-screen">
+			<section className="h-screen mb-10">
 				<section className="md:mt-20 xl:mt-20 mt-1 p-8">
 					<div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
 						<div className="xl:pl-32 md:px-10 px-3 hidden md:block xl:block">
@@ -60,17 +60,17 @@ const About = () => {
 				</section>
 			</section>
 
-			<section className="mt-20 md:mb-24 xl:mb-44 mb-10 md:px-32 px-7">
-				<div className="flex justify-center items-center m-auto">
+			<section className="mt-20 md:mb-24 xl:mb-44 mb-10 md:px-32">
+				<div className="flex justify-center items-center m-auto px-7">
 					<h1 className="text-5xl font-bold mb-14 text-black">
-						Geting Started is as <span className="text-unistudblue">easy as ABC</span>
+						Geting Started is <span className="text-unistudblue"> as easy as ABC</span>
 					</h1>
 				</div>
 
-				<div className="md:flex gap-16 py-5">
+				<div className="md:flex gap-16 py-5 md:mt-10">
 					{abc.map((steps) => (
 						<div
-							className="card w-96 bg-base-100 mb-5 shadow-xl image-full"
+							className="card w-96 bg-transparent mb-5 image-full px-7"
 							key={steps.number}>
 							<figure>
 								<Image
