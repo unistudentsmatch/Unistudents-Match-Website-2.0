@@ -52,7 +52,7 @@ const Footer = () => {
 
 			<nav className="grid grid-flow-col gap-4 mt-5">
 				<Link
-					href="mailto:hello@unistudentsmatch.com"
+					href="mailto:unistudentsmatch@gmail.com"
 					className="link link-hover xl:text-xl">
 					Contact
 				</Link>

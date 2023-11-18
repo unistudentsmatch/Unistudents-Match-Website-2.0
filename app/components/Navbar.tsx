@@ -16,7 +16,7 @@ const Navbar = () => {
 	const links = [
 		{ label: "Home", href: "/" },
 		{ label: "About Us", href: "/about" },
-		{ label: "FAQs", href: "/faq" },
+		{ label: "FAQs", href: "/#faq" },
 		{ label: "Contact Us", href: "mailto:unistudentsmatch@gmail.com" },
 	];
 
