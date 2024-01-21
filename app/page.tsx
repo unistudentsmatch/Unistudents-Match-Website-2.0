@@ -36,13 +36,13 @@ export default function Home() {
 									priority
 								/>
 							</Link>
-							<Image
+							<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
 								src="/images/apple.svg"
 								alt=""
 								width={150}
 								height={150}
 								className="m-auto"
-							/>
+							/></Link>
 						</div>
 					</div>
 				</div>
@@ -83,13 +83,13 @@ export default function Home() {
 						<p className="mt-5 text-base xl:text-xl md:pr-10 font-light text-gray-500">We also understand the importance of adhering to the principles of halal matchmaking, and Unistudents Match has been meticulously designed with these values in mind to ensure that your search for a compatible partner aligns seamlessly with your faith and beliefs.</p>
 						<div className="flex items-center">
 							<div className="md:flex xl:flex block mt-8">
-								<Image
+								<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
 									src="/images/apple.svg"
 									alt=""
 									width={160}
 									height={160}
 									className="m-auto"
-								/>
+								/></Link>
 							</div>
 						</div>
 					</div>
