@@ -12,21 +12,21 @@ const Calltoaction = () => {
 							<p className="mt-5 xl:text-lg text-base xl:w-3/5 md:w-3/5 text-unistudwhite">Create an account, verify your account and start connecting with right matches based on who you&lsquo;re compatibile with.</p>
 
 							<div className="md:flex mt-7 hidden">
-								<Image
+								<Link href="https://play.google.com/store/apps/details?id=com.unistudentsmatch.app.twa" target="_blank"><Image
 									src="/images/google.svg"
 									alt=""
 									width={160}
 									height={160}
 									className="me-5"
 									priority
-								/>
-								<Image
+								/></Link>
+								<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
 									src="/images/apple.svg"
 									alt=""
 									width={150}
 									height={150}
 									className=""
-								/>
+								/></Link>
 							</div>
 							<div className="md:hidden flex mt-7">
 								<a
