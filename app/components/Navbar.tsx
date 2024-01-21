@@ -141,21 +141,21 @@ const Navbar = () => {
 						<h3 className="font-bold text-lg">Download Unistudents Match</h3>
 						<p className="py-4">Click on the icons below to select your device</p>
 						<div className="flex">
-							<Image
+							<Link href="https://play.google.com/store/apps/details?id=com.unistudentsmatch.app.twa" target="_blank"><Image
 								src="/images/google.svg"
 								alt=""
 								width={130}
 								height={130}
 								className="me-5"
 								priority
-							/>
-							<Image
+							/></Link>
+							<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
 								src="/images/apple.svg"
 								alt=""
 								width={120}
 								height={120}
 								className=""
-							/>
+							/></Link>
 						</div>
 						<div className="modal-action">
 							<a
