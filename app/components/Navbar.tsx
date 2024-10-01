@@ -17,6 +17,7 @@ const Navbar = () => {
 		{ label: "Home", href: "/" },
 		{ label: "About Us", href: "/about" },
 		{ label: "FAQs", href: "/#faq" },
+		{ label: "Book a session", href: "https://calendly.com/winningwithwomen" },
 		{ label: "Contact Us", href: "mailto:unistudentsmatch@gmail.com" },
 	];
 
