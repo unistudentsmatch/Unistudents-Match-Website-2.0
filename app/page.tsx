@@ -66,9 +66,9 @@ export default function Home() {
 					</div>
 
 					<div className="xl:pr-32 xl:py-5 ">
-						<h1 className="font-bold md:text-3xl xl:text-3xl text-2xl text-black">
+						<h2 className="font-bold md:text-3xl xl:text-3xl text-2xl text-black">
 							The FIRST-EVER Matchmaking Service For <span className="text-unistudblue"> Muslim University Students  And Graduates</span>
-						</h1>
+						</h2>
 
 						<div className="mt-7 mb-5 block md:hidden xl:hidden">
 							<Image
@@ -101,7 +101,6 @@ export default function Home() {
 
 			{/* features section */}
 			<section className="xl:px-48 md:px-14 py-2 mt-14 justify-center flex">
-				{/*<h1 className='text-3xl md:text-5xl w-64 md:w-6/12 md:leading-[3.7rem]'> What <span className='text-thegrtnxyellow'>can I do?</span> </h1>*/}
 
 				<div className="container grid sm:grid-cols-2 lg:grid-cols-3 gap-12 mt-5">
 					<div className="overflow-hidden text-unistuddark rounded-lg">

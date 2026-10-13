@@ -30,7 +30,7 @@ const Faqs = () => {
 								className="w-full rounded-lg"
 							/>
 						</div>
-						<h1 className="font-bold md:text-3xl xl:text-3xl text-2xl text-black mb-10">Frequently Asked Questions</h1>
+						<h2 className="font-bold md:text-3xl xl:text-3xl text-2xl text-black mb-10">Frequently Asked Questions</h2>
 						{questions.map((faq) => (
 							<div
 								key={faq.question}
