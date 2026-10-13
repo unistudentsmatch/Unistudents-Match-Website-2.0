@@ -56,7 +56,7 @@ const Footer = () => {
 				<Link
 					href="/terms-and-condition"
 					className="link link-hover xl:text-xl">
-					Terms & Condition
+					Terms &amp; Conditions
 				</Link>
 			</nav>
 

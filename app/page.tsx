@@ -143,7 +143,7 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			{/* End of featues section */}
+			{/* End of features section */}
 
 			{/* FAQs section */}
 			<Faqs />

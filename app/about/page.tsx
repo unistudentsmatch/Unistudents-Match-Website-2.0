@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 const About = () => {
 	const abc = [
 		{ number: "1", text: "Download the Unistudents Match App" },
-		{ number: "2", text: "Create an account and setup your profile" },
-		{ number: "3", text: "Start connecting with suggested match" },
+		{ number: "2", text: "Create an account and set up your profile" },
+		{ number: "3", text: "Start connecting with suggested matches" },
 	];
 
 	return (
