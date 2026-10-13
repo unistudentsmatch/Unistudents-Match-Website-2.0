@@ -19,13 +19,17 @@ const Footer = () => {
 			<nav>
 				<div className="grid grid-flow-col gap-4">
 					<Link
-						href="https://instagram.com/unistudentsmatch?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr"
-						target="_blank">
+						href="https://instagram.com/unistudentsmatch"
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label="Unistudents Match on Instagram">
 						<RiInstagramFill className="text-2xl" />
 					</Link>
 					<Link
 						href="#"
-						target="_blank">
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label="Unistudents Match on social media">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="24"
