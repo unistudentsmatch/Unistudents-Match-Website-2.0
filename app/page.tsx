@@ -12,6 +12,7 @@ export default function Home() {
 					<video
 						className="min-w-full min-h-full absolute object-cover"
 						src="https://res.cloudinary.com/dh6edo2ek/video/upload/f_auto:video,q_auto/kmurwp0ve4gsjhf96xq7"
+						poster="/images/ch.jpg"
 						autoPlay
 						muted
 						loop
@@ -120,6 +121,7 @@ export default function Home() {
 							<video
 								className="rounded-xl"
 								src="https://res.cloudinary.com/dh6edo2ek/video/upload/v1699839170/elojwjchxup1riocupeq.mp4"
+								poster="/images/pr.jpg"
 								width="980"
 								height="980"
 								autoPlay
