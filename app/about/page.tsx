@@ -1,13 +1,19 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import Calltoaction from "../components/Calltoaction";
 
+export const metadata: Metadata = {
+	title: "About",
+	description: "Unistudents Match was developed with undergraduates and graduates in mind, to help Muslim students find a compatible partner in a halal way.",
+};
+
 const About = () => {
 	const abc = [
 		{ number: "1", text: "Download the Unistudents Match App" },
-		{ number: "2", text: "Create an account and setup your profile" },
-		{ number: "3", text: "Start connecting with suggested match" },
+		{ number: "2", text: "Create an account and set up your profile" },
+		{ number: "3", text: "Start connecting with suggested matches" },
 	];
 
 	return (
@@ -46,13 +52,12 @@ const About = () => {
 							<p className="mt-5 text-base xl:text-xl md:pr-10 font-light text-gray-500">Discover the significance of upholding halal matchmaking principles with Unistudents Match. Our platform is intricately crafted to prioritize these values, ensuring that your quest for a compatible partner effortlessly aligns with your faith and beliefs.</p>
 							<div className="flex items-center">
 								<div className="md:flex xl:flex block mt-8">
-									<Image
-										src="/images/apple.svg"
-										alt=""
-										width={160}
-										height={160}
-										className="m-auto"
-									/>
+									<Link href="https://play.google.com/store/apps/details?id=com.unistudentsmatch.app.twa" target="_blank" rel="noopener noreferrer" className="md:me-5 mb-3 md:mb-0">
+										<Image src="/images/google.svg" alt="Get it on Google Play" width={160} height={160} className="m-auto" />
+									</Link>
+									<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank" rel="noopener noreferrer">
+										<Image src="/images/apple.svg" alt="Download on the App Store" width={150} height={150} className="m-auto" />
+									</Link>
 								</div>
 							</div>
 						</div>

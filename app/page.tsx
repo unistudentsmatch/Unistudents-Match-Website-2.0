@@ -14,13 +14,15 @@ export default function Home() {
 						src="https://res.cloudinary.com/dh6edo2ek/video/upload/f_auto:video,q_auto/kmurwp0ve4gsjhf96xq7"
 						autoPlay
 						muted
-						loop></video>
+						loop
+						playsInline
+						aria-hidden="true"></video>
 				</div>
 				<div className="video-content space-y-2 md:w-3/5 xl:w-8/12 w-screen">
 					<h1 className="md:text-7xl xl:text-8xl font-bold text-4xl">
 						Find your <span className="text-unistudwhite">perfect</span> university <span className="text-unistudwhite">partner</span>
 					</h1>
-					<h3 className="font-light md:text-2xl xl:text-3x md:pt-5 xl:pt-5 pt-1 w-4/5 md:w-10/12 xl:w-6/12 m-auto">Unistudents Match is designed to help you connect with the right person in a halal way.</h3>
+					<h3 className="font-light md:text-2xl xl:text-3xl md:pt-5 xl:pt-5 pt-1 w-4/5 md:w-10/12 xl:w-6/12 m-auto">Unistudents Match is designed to help you connect with the right person in a halal way.</h3>
 
 					<div className="flex justify-center items-center">
 						<div className="md:flex xl:flex block mt-5">
@@ -29,7 +31,7 @@ export default function Home() {
 								target="_blank">
 								<Image
 									src="/images/google.svg"
-									alt=""
+									alt="Get it on Google Play"
 									width={160}
 									height={160}
 									className="m-auto md:me-5 xl:me-5 mb-3 md:mb-1 xl:mb-1"
@@ -38,7 +40,7 @@ export default function Home() {
 							</Link>
 							<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
 								src="/images/apple.svg"
-								alt=""
+								alt="Download on the App Store"
 								width={150}
 								height={150}
 								className="m-auto"
@@ -64,9 +66,9 @@ export default function Home() {
 					</div>
 
 					<div className="xl:pr-32 xl:py-5 ">
-						<h1 className="font-bold md:text-3xl xl:text-3xl text-2xl text-black">
+						<h2 className="font-bold md:text-3xl xl:text-3xl text-2xl text-black">
 							The FIRST-EVER Matchmaking Service For <span className="text-unistudblue"> Muslim University Students  And Graduates</span>
-						</h1>
+						</h2>
 
 						<div className="mt-7 mb-5 block md:hidden xl:hidden">
 							<Image
@@ -85,7 +87,7 @@ export default function Home() {
 							<div className="md:flex xl:flex block mt-8">
 								<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
 									src="/images/apple.svg"
-									alt=""
+									alt="Download on the App Store"
 									width={160}
 									height={160}
 									className="m-auto"
@@ -99,7 +101,6 @@ export default function Home() {
 
 			{/* features section */}
 			<section className="xl:px-48 md:px-14 py-2 mt-14 justify-center flex">
-				{/*<h1 className='text-3xl md:text-5xl w-64 md:w-6/12 md:leading-[3.7rem]'> What <span className='text-thegrtnxyellow'>can I do?</span> </h1>*/}
 
 				<div className="container grid sm:grid-cols-2 lg:grid-cols-3 gap-12 mt-5">
 					<div className="overflow-hidden text-unistuddark rounded-lg">
@@ -109,7 +110,7 @@ export default function Home() {
 						</div>
 
 						<div className="p-8 sm:p-9 md:p-10 xl:p-9">
-							<h2 className="font-bold mb-3 mt-3xl:text-3xl text-2xl xl:mt-10">Privacy </h2>
+							<h2 className="font-bold mb-3 mt-3 xl:text-3xl text-2xl xl:mt-10">Privacy </h2>
 							<p className="mb-5 mt-5 text-md font-light">We understand that privacy is important for you. Your personal data will remain private with us. You can even choose which members can see your photos.</p>
 						</div>
 					</div>
@@ -123,7 +124,9 @@ export default function Home() {
 								height="980"
 								autoPlay
 								muted
-								loop></video>
+								loop
+								playsInline
+								aria-hidden="true"></video>
 						</div>
 					</div>
 
@@ -140,7 +143,7 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			{/* End of featues section */}
+			{/* End of features section */}
 
 			{/* FAQs section */}
 			<Faqs />

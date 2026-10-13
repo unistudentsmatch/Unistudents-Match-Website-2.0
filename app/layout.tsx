@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Cloudinary } from "@cloudinary/url-gen";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -8,13 +7,25 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Unistudents Match",
+	metadataBase: new URL("https://unistudentsmatch.com"),
+	title: {
+		default: "Unistudents Match",
+		template: "%s | Unistudents Match",
+	},
 	description: "Helping you connect with the right person in the Halal way",
+	openGraph: {
+		title: "Unistudents Match",
+		description: "The first matchmaking service for Muslim university students and graduates.",
+		url: "/",
+		siteName: "Unistudents Match",
+		images: ["/images/ch.jpg"],
+		type: "website",
+	},
+	twitter: { card: "summary_large_image" },
+	alternates: { canonical: "/" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-	const cld = new Cloudinary({ cloud: { cloudName: "dh6edo2ek" } });
-
 	return (
 		<html
 			lang="en"

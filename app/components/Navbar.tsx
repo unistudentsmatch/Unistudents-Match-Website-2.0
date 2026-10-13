@@ -34,7 +34,7 @@ const Navbar = () => {
 							<Image
 								className="h-10 w-auto"
 								src="/images/lgg.png"
-								alt=""
+								alt="Unistudents Match"
 								width={100}
 								height={100}
 							/>
@@ -80,7 +80,8 @@ const Navbar = () => {
 					<Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-slate-50 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
 						<div className="flex items-center justify-between">
 							<Link
-								href="#"
+								href="/"
+								onClick={() => setMobileMenuOpen(false)}
 								className="-m-1.5 p-1.5">
 								<span className="sr-only">Unistudents Match</span>
 								<Image
@@ -144,7 +145,7 @@ const Navbar = () => {
 						<div className="flex">
 							<Link href="https://play.google.com/store/apps/details?id=com.unistudentsmatch.app.twa" target="_blank"><Image
 								src="/images/google.svg"
-								alt=""
+								alt="Get it on Google Play"
 								width={130}
 								height={130}
 								className="me-5"
@@ -152,7 +153,7 @@ const Navbar = () => {
 							/></Link>
 							<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
 								src="/images/apple.svg"
-								alt=""
+								alt="Download on the App Store"
 								width={120}
 								height={120}
 								className=""

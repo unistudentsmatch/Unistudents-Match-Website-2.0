@@ -10,12 +10,12 @@ const Calltoaction = () => {
 					<div className="overflow-hidden bg-unistudblue shad1 text-unistuddark background-image">
 						<div className="md:px-10 md:py-10 m-14">
 							<h2 className="font-bold text-unistudwhite mb-3 text-2xl xl:text-5xl md:text-5xl md:w-3/5 xl:w-4/5 w-full">Ready to get started? </h2>
-							<p className="mt-5 xl:text-lg text-base xl:w-3/5 md:w-3/5 text-unistudwhite">Create an account, verify your account and start connecting with right matches based on who you&lsquo;re compatibile with.</p>
+							<p className="mt-5 xl:text-lg text-base xl:w-3/5 md:w-3/5 text-unistudwhite">Create an account, verify your account and start connecting with the right matches based on who you&rsquo;re compatible with.</p>
 
 							<div className="md:flex mt-7 hidden">
 								<Link href="https://play.google.com/store/apps/details?id=com.unistudentsmatch.app.twa" target="_blank"><Image
 									src="/images/google.svg"
-									alt=""
+									alt="Get it on Google Play"
 									width={160}
 									height={160}
 									className="me-5"
@@ -23,7 +23,7 @@ const Calltoaction = () => {
 								/></Link>
 								<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
 									src="/images/apple.svg"
-									alt=""
+									alt="Download on the App Store"
 									width={150}
 									height={150}
 									className=""

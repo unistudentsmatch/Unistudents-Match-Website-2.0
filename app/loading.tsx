@@ -9,7 +9,7 @@ const Loading = () => {
 				</div>
 				<div className="video-content space-y-2 md:w-3/5 xl:w-8/12 w-screen">
 					<div className="md:text-7xl xl:text-8xl font-bold text-4xl h-16"></div>
-					<div className="font-light md:text-2xl xl:text-3x md:pt-5 xl:pt-5 pt-1 w-4/5 md:w-10/12 xl:w-6/12 m-auto h-8"></div>
+					<div className="font-light md:text-2xl xl:text-3xl md:pt-5 xl:pt-5 pt-1 w-4/5 md:w-10/12 xl:w-6/12 m-auto h-8"></div>
 					<div className="flex justify-center items-center mt-5 h-16"></div>
 				</div>
 			</section>
