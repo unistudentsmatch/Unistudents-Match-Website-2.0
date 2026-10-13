@@ -12,8 +12,8 @@ const Privacy = () => {
 				Your use of the Company’s services and this site are also governed by those of Unistudents Match, UK. Please also review the Unistudents Match® website Terms of Use at&nbsp;
 				<Link
 					className="text-blue-700"
-					href="https://unistudentsmatch.com/t&amp;c">
-					https://unistudentsmatch.com/t&amp;c
+					href="/terms-and-condition">
+					https://unistudentsmatch.com/terms-and-condition
 				</Link>{" "}
 				which also govern use of this Site.
 			</p>
