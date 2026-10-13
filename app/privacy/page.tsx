@@ -76,34 +76,30 @@ const Privacy = () => {
 			<p className="mb-5">
 				<span className="text-dark font-bold">Your Access to and Control Over Your Personally Identifiable Information:</span> At any time, but only once per calendar year, or as otherwise required under applicable law, users may contact Company to review the personally identifiable information that Company has collected about you. If you discover any errors, please notify Company and the information will be corrected. To review the personally identifiable information that company has collected about you, please send an email to{" "}
 				<Link
-					href="mailto: info@unistudentsmatch.com"
-					className="__cf_email__"
-					data-cfemail="e596908b8b848d888491868da58288848c89cb868a88">
-					[email&nbsp;protected]
+					href="mailto:info@unistudentsmatch.com"
+					className="font-bold text-unistudblue">
+						info@unistudentsmatch.com
 				</Link>
 				&nbsp;with the subject line: “Personal Information Review Request.” Users may also request that Company delete a user account(s) or, if you have not established a user account, your email address, and any related data at any time. If you wish to delete your user account(s), please email us at&nbsp;
 				<Link
-					href="mailto: info@unistudentsmatch.com"
-					className="__cf_email__"
-					data-cfemail="1360667d7d727b7e7267707b53747e727a7f3d707c7e">
-					[email&nbsp;protected]
+					href="mailto:info@unistudentsmatch.com"
+					className="font-bold text-unistudblue">
+						info@unistudentsmatch.com
 				</Link>
 				&nbsp;with the words “Delete Account” in the subject line. If you do not have a user account and wish to delete your email address or other personally identifiable information that you might have provided through your use of the Site, any Games, and/or any Services, please email us{" "}
 				<Link
-					href="mailto: info@unistudentsmatch.com"
-					className="__cf_email__"
-					data-cfemail="29485d5a5c4747484144485d4a41694e44484045074a4644">
-					[email&nbsp;protected]
+					href="mailto:info@unistudentsmatch.com"
+					className="font-bold text-unistudblue">
+						info@unistudentsmatch.com
 				</Link>
 				with the words “Delete My Information” in the subject line.
 			</p>
 			<p className="mb-5">
 				You may also choose to confirm that the Company does not use your personal information in certain ways and/or to otherwise “opt out” of certain uses of that personal information, including without limitation (i) when your personal may to be disclosed to a third party unrelated to the Company and/or parties directly related to providing your Services and/or (ii) when your personal information may be used for a purpose that is materially different from the purpose(s) for which it was originally collected or subsequently authorized by you. If you wish to limit your personal data in either such way, or have other questions about how the Company may use your personal data, please contact us
 				<Link
-					href="mailto: info@unistudentsmatch.com"
-					className="__cf_email__"
-					data-cfemail="2a4b5e595f44444b42474b5e49426a4d474b434604494547">
-					[email&nbsp;protected]
+					href="mailto:info@unistudentsmatch.com"
+					className="font-bold text-unistudblue">
+						info@unistudentsmatch.com
 				</Link>
 				with the words “Privacy Request” in the subject line.
 			</p>
@@ -115,10 +111,9 @@ const Privacy = () => {
 			<p className="mb-5">
 				Via email:{" "}
 				<Link
-					href="mailto: info@unistudentsmatch.com"
-					className="__cf_email__"
-					data-cfemail="5122243f3f30393c3025323911363c30383d7f323e3c">
-					[email&nbsp;protected]
+					href="mailto:info@unistudentsmatch.com"
+					className="font-bold text-unistudblue">
+						info@unistudentsmatch.com
 				</Link>
 			</p>
 			<p className="mb-5">Information provided by you via general e-mail inquiries to the Company such as your e-mail address is used only to respond to your inquiries in the ordinary course of business, and is never shared with third parties.</p>
