@@ -5,14 +5,14 @@ import { RiInstagramFill } from "react-icons/ri";
 
 const Footer = () => {
 	return (
-		<footer className="footer footer-center p-10 bg-black text-white rounded">
+		<footer className="footer footer-center footer-horizontal p-10 bg-black text-white rounded-sm">
 			<aside className="mt-10">
 				<Image
 					src="/images/lggg.png"
 					alt="Unistudents Match"
 					width="150"
 					height="150"
-					className="inline-block fill-current"
+					className="inline-block h-auto fill-current"
 				/>
 			</aside>
 

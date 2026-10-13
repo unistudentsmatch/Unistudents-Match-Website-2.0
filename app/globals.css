@@ -1,6 +1,36 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@plugin "daisyui" {
+	themes: winter --default;
+}
+
+@theme {
+	--color-unistudblue: #0d6efd;
+	--color-unistudwhite: #fff;
+	--color-unistuddark: #000;
+	--color-unistudgrey: #f8f8f8;
+}
+
+/* Tailwind 4 changed two defaults; keep the Tailwind 3 look. */
+@layer base {
+	*,
+	::after,
+	::before,
+	::backdrop,
+	::file-selector-button {
+		border-color: var(--color-gray-200, currentColor);
+	}
+
+	button:not(:disabled),
+	[role="button"]:not(:disabled) {
+		cursor: pointer;
+	}
+}
+
+/* daisyUI 5 made buttons 40px tall by default; keep the 48px buttons the site was designed with. */
+.btn {
+	--size: calc(var(--size-field, 0.25rem) * 12);
+}
 
 *,
 *::before,
