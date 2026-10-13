@@ -1,31 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Unistudents Match Website
 
-## Getting Started
+The marketing website for Unistudents Match. **Unistudents Match** is a matchmaking service for Muslim university students. It helps people find a compatible partner in a halal way: they create a profile, say who they are and what they're looking for, and connect with the matches they're most compatible with.
 
-First, run the development server:
+The site explains how the service works, and covers the About, Privacy Policy and Terms and Conditions pages.
+
+## Pages
+
+| Route | Page |
+|---|---|
+| `/` | Home: how it works and why to join |
+| `/about` | About Unistudents Match |
+| `/privacy` | Privacy policy |
+| `/terms-and-condition` | Terms and conditions |
+
+## Stack
+
+- Next.js (App Router), React and TypeScript
+- Tailwind CSS with Material Tailwind and Headless UI
+- Cloudinary for images
+- Heroicons and React Icons
+
+## Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+| Command | What it does |
+|---|---|
+| `npm run dev` | Start the development server |
+| `npm run build` | Build for production |
+| `npm run start` | Run the production build |
+| `npm run lint` | Lint the project |
 
-## Learn More
+## Unistudents Match repositories
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
+| Repository | What it is |
+|---|---|
+| [curlback/unistudents-backend](https://github.com/curlback/unistudents-backend) | Current API (NestJS, Prisma, PostgreSQL, Redis, BullMQ) |
+| [curlback/unistudents-admin](https://github.com/curlback/unistudents-admin) | Admin dashboard (Next.js) |
+| [curlback/unistudent-mobile](https://github.com/curlback/unistudent-mobile) | Mobile app for Android and iOS (Flutter) |
+| [grtsnx/unistudents-server](https://github.com/grtsnx/unistudents-server) | Earlier NestJS API |
+| [unistudentsmatch/UnistudentsMatch-API](https://github.com/unistudentsmatch/UnistudentsMatch-API) | Earlier Express and MySQL API |
+| [unistudentsmatch/UnistudentMatch](https://github.com/unistudentsmatch/UnistudentMatch) | Earlier web app and Android app (React, Vite) |
+| [unistudentsmatch/Unistudents-Match-Website-2.0](https://github.com/unistudentsmatch/Unistudents-Match-Website-2.0) | Marketing website (Next.js) |
+| [grtsnx/uistudentmatch](https://github.com/grtsnx/uistudentmatch) | First version of the platform (PHP) |
