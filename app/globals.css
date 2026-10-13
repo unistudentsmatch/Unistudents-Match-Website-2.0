@@ -6,13 +6,17 @@
 *::before,
 *::after {
 	box-sizing: border-box;
-	scroll-behavior: smooth !important;
-	transition: 0.5s ease-in !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
 	:root {
-		scroll-behavior: smooth !important;
+		scroll-behavior: smooth;
+	}
+
+	a,
+	button,
+	.btn {
+		transition: color 0.2s ease, background-color 0.2s ease, opacity 0.2s ease;
 	}
 }
 
