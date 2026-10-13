@@ -12,7 +12,7 @@ const Footer = () => {
 					alt="Unistudents Match"
 					width="150"
 					height="150"
-					className="inline-block fill-current"
+					className="inline-block h-auto fill-current"
 				/>
 			</aside>
 
