@@ -12,6 +12,7 @@ export default function Home() {
 					<video
 						className="min-w-full min-h-full absolute object-cover"
 						src="https://res.cloudinary.com/dh6edo2ek/video/upload/f_auto:video,q_auto/kmurwp0ve4gsjhf96xq7"
+						poster="/images/ch.jpg"
 						autoPlay
 						muted
 						loop
@@ -22,23 +23,23 @@ export default function Home() {
 					<h1 className="md:text-7xl xl:text-8xl font-bold text-4xl">
 						Find your <span className="text-unistudwhite">perfect</span> university <span className="text-unistudwhite">partner</span>
 					</h1>
-					<h3 className="font-light md:text-2xl xl:text-3xl md:pt-5 xl:pt-5 pt-1 w-4/5 md:w-10/12 xl:w-6/12 m-auto">Unistudents Match is designed to help you connect with the right person in a halal way.</h3>
+					<p className="font-light md:text-2xl xl:text-3xl md:pt-5 xl:pt-5 pt-1 w-4/5 md:w-10/12 xl:w-6/12 m-auto">Unistudents Match is designed to help you connect with the right person in a halal way.</p>
 
 					<div className="flex justify-center items-center">
 						<div className="md:flex xl:flex block mt-5">
 							<Link
 								href="https://play.google.com/store/apps/details?id=com.unistudentsmatch.app.twa"
-								target="_blank">
+								target="_blank" rel="noopener noreferrer">
 								<Image
 									src="/images/google.svg"
 									alt="Get it on Google Play"
 									width={160}
 									height={160}
 									className="m-auto md:me-5 xl:me-5 mb-3 md:mb-1 xl:mb-1"
-									priority
+									preload
 								/>
 							</Link>
-							<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
+							<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank" rel="noopener noreferrer"><Image
 								src="/images/apple.svg"
 								alt="Download on the App Store"
 								width={150}
@@ -60,7 +61,7 @@ export default function Home() {
 							alt=""
 							width="0"
 							height="0"
-							sizes="100vw"
+							sizes="(min-width: 1024px) 40vw, 100vw"
 							className="shad w-full rounded-lg"
 						/>
 					</div>
@@ -76,7 +77,7 @@ export default function Home() {
 								alt=""
 								width="0"
 								height="0"
-								sizes="100vw"
+								sizes="(min-width: 1024px) 40vw, 100vw"
 								className="shad w-full rounded-lg"
 							/>
 						</div>
@@ -85,7 +86,7 @@ export default function Home() {
 						<p className="mt-5 text-base xl:text-xl md:pr-10 font-light text-gray-500">We also understand the importance of adhering to the principles of halal matchmaking, and Unistudents Match has been meticulously designed with these values in mind to ensure that your search for a compatible partner aligns seamlessly with your faith and beliefs.</p>
 						<div className="flex items-center">
 							<div className="md:flex xl:flex block mt-8">
-								<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
+								<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank" rel="noopener noreferrer"><Image
 									src="/images/apple.svg"
 									alt="Download on the App Store"
 									width={160}
@@ -120,6 +121,7 @@ export default function Home() {
 							<video
 								className="rounded-xl"
 								src="https://res.cloudinary.com/dh6edo2ek/video/upload/v1699839170/elojwjchxup1riocupeq.mp4"
+								poster="/images/pr.jpg"
 								width="980"
 								height="980"
 								autoPlay

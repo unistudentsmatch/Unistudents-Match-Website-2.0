@@ -137,8 +137,6 @@ const terms = () => {
 								The Company collects, stores, maintains, and shares information about You in accordance with Our Privacy Policy:{" "}
 								<Link
 									href="/privacy"
-									rel="external nofollow noopener"
-									target="_blank"
 									className="font-bold text-unistudblue">
 									https://unistudentsmatch.com/privacy
 								</Link>
@@ -188,8 +186,6 @@ const terms = () => {
 										By visiting this page on our website:{" "}
 										<Link
 											href="/privacy"
-											rel="external nofollow noopener"
-											target="_blank"
 											className="font-bold text-unistudblue">
 											https://unistudentsmatch.com/privacy
 										</Link>

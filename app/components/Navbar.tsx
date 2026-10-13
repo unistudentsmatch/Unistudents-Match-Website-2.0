@@ -138,20 +138,22 @@ const Navbar = () => {
 
 				<div
 					className="modal backdrop-blur-3xl"
-					id="downloadApp">
+					id="downloadApp"
+					role="dialog"
+					aria-modal="true"
+					aria-labelledby="downloadAppTitle">
 					<div className="modal-box">
-						<h3 className="font-bold text-lg">Download Unistudents Match</h3>
+						<h3 id="downloadAppTitle" className="font-bold text-lg">Download Unistudents Match</h3>
 						<p className="py-4">Click on the icons below to select your device</p>
 						<div className="flex">
-							<Link href="https://play.google.com/store/apps/details?id=com.unistudentsmatch.app.twa" target="_blank"><Image
+							<Link href="https://play.google.com/store/apps/details?id=com.unistudentsmatch.app.twa" target="_blank" rel="noopener noreferrer"><Image
 								src="/images/google.svg"
 								alt="Get it on Google Play"
 								width={130}
 								height={130}
 								className="me-5"
-								priority
 							/></Link>
-							<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
+							<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank" rel="noopener noreferrer"><Image
 								src="/images/apple.svg"
 								alt="Download on the App Store"
 								width={120}
@@ -162,6 +164,8 @@ const Navbar = () => {
 						<div className="modal-action">
 							<a
 								href="#"
+								role="button"
+								aria-label="Close the download dialog"
 								className="btn">
 								Close
 							</a>
