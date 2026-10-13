@@ -149,7 +149,6 @@ const Navbar = () => {
 								width={130}
 								height={130}
 								className="me-5"
-								priority
 							/></Link>
 							<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank" rel="noopener noreferrer"><Image
 								src="/images/apple.svg"

@@ -35,7 +35,7 @@ export default function Home() {
 									width={160}
 									height={160}
 									className="m-auto md:me-5 xl:me-5 mb-3 md:mb-1 xl:mb-1"
-									priority
+									preload
 								/>
 							</Link>
 							<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank" rel="noopener noreferrer"><Image
