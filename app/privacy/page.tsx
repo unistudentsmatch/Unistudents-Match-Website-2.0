@@ -1,5 +1,11 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import React from "react";
+
+export const metadata: Metadata = {
+	title: "Privacy Policy",
+	description: "How Unistudents Match collects, uses and protects your personal data.",
+};
 
 const Privacy = () => {
 	return (

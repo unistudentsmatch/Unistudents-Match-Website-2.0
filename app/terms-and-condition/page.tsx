@@ -1,5 +1,11 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import React from "react";
+
+export const metadata: Metadata = {
+	title: "Terms and Conditions",
+	description: "The terms for using Unistudents Match.",
+};
 
 const terms = () => {
 	return (

@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import Calltoaction from "../components/Calltoaction";
+
+export const metadata: Metadata = {
+	title: "About",
+	description: "Unistudents Match was developed with undergraduates and graduates in mind, to help Muslim students find a compatible partner in a halal way.",
+};
 
 const About = () => {
 	const abc = [
