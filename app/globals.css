@@ -27,6 +27,11 @@
 	}
 }
 
+/* daisyUI 5 made buttons 40px tall by default; keep the 48px buttons the site was designed with. */
+.btn {
+	--size: calc(var(--size-field, 0.25rem) * 12);
+}
+
 *,
 *::before,
 *::after {
