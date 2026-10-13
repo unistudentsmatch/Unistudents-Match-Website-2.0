@@ -15,12 +15,14 @@ The site explains how the service works, and covers the About, Privacy Policy an
 
 ## Stack
 
-- Next.js (App Router), React and TypeScript
-- Tailwind CSS with Material Tailwind and Headless UI
+- Next.js 16 (App Router), React 19 and TypeScript
+- Tailwind CSS 4 with daisyUI 5 and Headless UI
 - Cloudinary for images
 - Heroicons and React Icons
 
 ## Development
+
+Requires Node.js 20.9 or later.
 
 ```bash
 npm install
