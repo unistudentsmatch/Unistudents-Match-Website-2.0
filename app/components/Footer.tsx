@@ -5,7 +5,7 @@ import { RiInstagramFill } from "react-icons/ri";
 
 const Footer = () => {
 	return (
-		<footer className="footer footer-center p-10 bg-black text-white rounded">
+		<footer className="footer footer-center p-10 bg-black text-white rounded-sm">
 			<aside className="mt-10">
 				<Image
 					src="/images/lggg.png"
