@@ -48,7 +48,7 @@ const About = () => {
 								<div className="md:flex xl:flex block mt-8">
 									<Image
 										src="/images/apple.svg"
-										alt=""
+										alt="Download on the App Store"
 										width={160}
 										height={160}
 										className="m-auto"

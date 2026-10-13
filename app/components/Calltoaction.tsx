@@ -15,7 +15,7 @@ const Calltoaction = () => {
 							<div className="md:flex mt-7 hidden">
 								<Link href="https://play.google.com/store/apps/details?id=com.unistudentsmatch.app.twa" target="_blank"><Image
 									src="/images/google.svg"
-									alt=""
+									alt="Get it on Google Play"
 									width={160}
 									height={160}
 									className="me-5"
@@ -23,7 +23,7 @@ const Calltoaction = () => {
 								/></Link>
 								<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
 									src="/images/apple.svg"
-									alt=""
+									alt="Download on the App Store"
 									width={150}
 									height={150}
 									className=""

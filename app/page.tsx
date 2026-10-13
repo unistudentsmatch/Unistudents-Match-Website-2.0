@@ -31,7 +31,7 @@ export default function Home() {
 								target="_blank">
 								<Image
 									src="/images/google.svg"
-									alt=""
+									alt="Get it on Google Play"
 									width={160}
 									height={160}
 									className="m-auto md:me-5 xl:me-5 mb-3 md:mb-1 xl:mb-1"
@@ -40,7 +40,7 @@ export default function Home() {
 							</Link>
 							<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
 								src="/images/apple.svg"
-								alt=""
+								alt="Download on the App Store"
 								width={150}
 								height={150}
 								className="m-auto"
@@ -87,7 +87,7 @@ export default function Home() {
 							<div className="md:flex xl:flex block mt-8">
 								<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
 									src="/images/apple.svg"
-									alt=""
+									alt="Download on the App Store"
 									width={160}
 									height={160}
 									className="m-auto"

@@ -144,7 +144,7 @@ const Navbar = () => {
 						<div className="flex">
 							<Link href="https://play.google.com/store/apps/details?id=com.unistudentsmatch.app.twa" target="_blank"><Image
 								src="/images/google.svg"
-								alt=""
+								alt="Get it on Google Play"
 								width={130}
 								height={130}
 								className="me-5"
@@ -152,7 +152,7 @@ const Navbar = () => {
 							/></Link>
 							<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
 								src="/images/apple.svg"
-								alt=""
+								alt="Download on the App Store"
 								width={120}
 								height={120}
 								className=""
