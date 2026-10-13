@@ -20,7 +20,7 @@ export default function Home() {
 					<h1 className="md:text-7xl xl:text-8xl font-bold text-4xl">
 						Find your <span className="text-unistudwhite">perfect</span> university <span className="text-unistudwhite">partner</span>
 					</h1>
-					<h3 className="font-light md:text-2xl xl:text-3x md:pt-5 xl:pt-5 pt-1 w-4/5 md:w-10/12 xl:w-6/12 m-auto">Unistudents Match is designed to help you connect with the right person in a halal way.</h3>
+					<h3 className="font-light md:text-2xl xl:text-3xl md:pt-5 xl:pt-5 pt-1 w-4/5 md:w-10/12 xl:w-6/12 m-auto">Unistudents Match is designed to help you connect with the right person in a halal way.</h3>
 
 					<div className="flex justify-center items-center">
 						<div className="md:flex xl:flex block mt-5">
@@ -109,7 +109,7 @@ export default function Home() {
 						</div>
 
 						<div className="p-8 sm:p-9 md:p-10 xl:p-9">
-							<h2 className="font-bold mb-3 mt-3xl:text-3xl text-2xl xl:mt-10">Privacy </h2>
+							<h2 className="font-bold mb-3 mt-3 xl:text-3xl text-2xl xl:mt-10">Privacy </h2>
 							<p className="mb-5 mt-5 text-md font-light">We understand that privacy is important for you. Your personal data will remain private with us. You can even choose which members can see your photos.</p>
 						</div>
 					</div>
