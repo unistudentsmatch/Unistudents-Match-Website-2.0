@@ -14,7 +14,9 @@ export default function Home() {
 						src="https://res.cloudinary.com/dh6edo2ek/video/upload/f_auto:video,q_auto/kmurwp0ve4gsjhf96xq7"
 						autoPlay
 						muted
-						loop></video>
+						loop
+						playsInline
+						aria-hidden="true"></video>
 				</div>
 				<div className="video-content space-y-2 md:w-3/5 xl:w-8/12 w-screen">
 					<h1 className="md:text-7xl xl:text-8xl font-bold text-4xl">
@@ -123,7 +125,9 @@ export default function Home() {
 								height="980"
 								autoPlay
 								muted
-								loop></video>
+								loop
+								playsInline
+								aria-hidden="true"></video>
 						</div>
 					</div>
 
