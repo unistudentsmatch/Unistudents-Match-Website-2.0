@@ -28,7 +28,7 @@ export default function Home() {
 						<div className="md:flex xl:flex block mt-5">
 							<Link
 								href="https://play.google.com/store/apps/details?id=com.unistudentsmatch.app.twa"
-								target="_blank">
+								target="_blank" rel="noopener noreferrer">
 								<Image
 									src="/images/google.svg"
 									alt="Get it on Google Play"
@@ -38,7 +38,7 @@ export default function Home() {
 									priority
 								/>
 							</Link>
-							<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
+							<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank" rel="noopener noreferrer"><Image
 								src="/images/apple.svg"
 								alt="Download on the App Store"
 								width={150}
@@ -85,7 +85,7 @@ export default function Home() {
 						<p className="mt-5 text-base xl:text-xl md:pr-10 font-light text-gray-500">We also understand the importance of adhering to the principles of halal matchmaking, and Unistudents Match has been meticulously designed with these values in mind to ensure that your search for a compatible partner aligns seamlessly with your faith and beliefs.</p>
 						<div className="flex items-center">
 							<div className="md:flex xl:flex block mt-8">
-								<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank"><Image
+								<Link href="https://apps.apple.com/us/app/unistudents-match/id6474815697" target="_blank" rel="noopener noreferrer"><Image
 									src="/images/apple.svg"
 									alt="Download on the App Store"
 									width={160}

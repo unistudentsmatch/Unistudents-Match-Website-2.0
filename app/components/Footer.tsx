@@ -65,7 +65,7 @@ const Footer = () => {
 					&copy; Unistudents Match - Developed by{" "}
 					<Link
 						href="https://hynitr.com"
-						target="_blank"
+						target="_blank" rel="noopener noreferrer"
 						className="text-blue-600">
 						Hynitr
 					</Link>
