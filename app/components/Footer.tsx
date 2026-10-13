@@ -9,7 +9,7 @@ const Footer = () => {
 			<aside className="mt-10">
 				<Image
 					src="/images/lggg.png"
-					alt="Unstudents Match"
+					alt="Unistudents Match"
 					width="150"
 					height="150"
 					className="inline-block fill-current"

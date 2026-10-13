@@ -34,7 +34,7 @@ const Navbar = () => {
 							<Image
 								className="h-10 w-auto"
 								src="/images/lgg.png"
-								alt=""
+								alt="Unistudents Match"
 								width={100}
 								height={100}
 							/>
