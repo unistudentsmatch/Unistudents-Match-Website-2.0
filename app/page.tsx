@@ -60,7 +60,7 @@ export default function Home() {
 							alt=""
 							width="0"
 							height="0"
-							sizes="100vw"
+							sizes="(min-width: 1024px) 40vw, 100vw"
 							className="shad w-full rounded-lg"
 						/>
 					</div>
@@ -76,7 +76,7 @@ export default function Home() {
 								alt=""
 								width="0"
 								height="0"
-								sizes="100vw"
+								sizes="(min-width: 1024px) 40vw, 100vw"
 								className="shad w-full rounded-lg"
 							/>
 						</div>
